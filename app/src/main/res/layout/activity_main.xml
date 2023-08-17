@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer"
+
+        tools:openDrawer="start"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+
+               >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/toolbarTitle"
+                    android:layout_gravity="center"
+                    android:id="@+id/toolbar_title"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nunitobold"
+                    />
+
+
+              <ImageButton
+                android:id="@+id/iv_addPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingEnd="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/add"
+                  tools:ignore="RtlSymmetry" />
+
+                <ImageButton
+                    android:id="@+id/searchBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="13dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/search_icon"
+                    />
+
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </LinearLayout>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:name="com.wisepotato.wp_app.HomeFragment"
+            android:id="@+id/viewPagerFragment"
+            />
+
+
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Widget.Custom.NavigationView"
+            android:id="@+id/navmenu"
+
+            app:itemTextAppearance="@style/Style_TextView"
+            app:menu="@menu/icon_menu"
+            app:headerLayout="@layout/nav_drawer"
+            android:layout_gravity="start">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/WisepotatoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nunitobold"
+                android:text="@string/toolbarTitle" />
+            <TextView
+                android:id="@+id/WisepotatoTagLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:fontFamily="@font/nunitolightitalic"
+                android:text="@string/wisepotatoTagline" />
+
+        </LinearLayout>
+
+        </com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_alignParentBottom="true"
+        android:indeterminate="true"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/contentLoaderProgress"
+        android:progressTint="@color/black"
+        android:secondaryProgressTint="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+</RelativeLayout>
+
+
+

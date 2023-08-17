@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">WP_APP</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Register</string>
+    <string name="fullname">FullName</string>
+    <string name="email">Email</string>
+    <string name="loginhere">Already have an account? <u>Login</u></string>
+    <string name="signuphere">New here? <u>Sign Up</u></string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_saved_post">Saved Posts</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="toolbarTitle">Wise Potato</string>
+    <string name="IntrestsInfo">Please select your interests (minimum one)</string>
+    <string name="tag1">Tag No.1</string>
+    <string name="tag2">Tag No.2</string>
+    <string name="tag3">Tag No.3</string>
+    <string name="tag4">Tag No.4</string>
+    <string name="addPostTitle"> Create With Us</string>
+    <string name="hintTitle">Title</string>
+    <string name="ExplanationHint">Explanation</string>
+    <string name="Count">50</string>
+    <string name="Submit">Submit</string>
+    <string name="Age">Age</string>
+    <string name="AgeActivityTitle">Help us personalize your experience</string>
+    <string name="Next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="wait">Please wait...</string>
+    <string name="ExampleText">Example text</string>
+    <string name="PostsEndMsg">Oops.. You have reached the end of posts</string>
+    <string name="PostsEndMsg2">PLEASE COME BACK LATER</string>
+    <string name="Upvote">Upvote</string>
+    <string name="zero">0</string>
+    <string name="MyProfileTitle">My Profile</string>
+    <string name="signup1">Sign Up</string>
+    <string name="termsTitle">Terms &amp; Privacy</string>
+    <string name="termsandCond">Terms &amp; Conditions</string>
+    <string name="General">General</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="wisepotatoTagline">See you at knowledge</string>
+    <string name="InterestTitle">GET STARTED</string>
+
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:context=".addPostActivity">
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backBtn"
+            android:focusable="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="@string/Submit" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/nunitobold"
+            android:gravity="center_horizontal"
+            android:text="@string/addPostTitle"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/backBtn"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etConceptTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:background="@drawable/custom_textfield_form"
+            android:ems="10"
+            android:fontFamily="@font/nunitoregular"
+            android:hint="@string/hintTitle"
+            android:textAlignment="center"
+            android:inputType="textCapWords" />
+
+        <Spinner
+            android:id="@+id/etDomainSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:fontFamily="@font/nunitolight"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:textAlignment="textStart"
+            android:ems="10"
+            android:background="@drawable/custom_textfield_form"
+            android:spinnerMode="dropdown"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Count"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunitobold"
+            android:id="@+id/counterNum"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:layout_marginEnd="20dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/etExplaination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitolight"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="top|start"
+            android:hint="@string/ExplanationHint"
+            android:inputType="text|textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideInset"
+            android:scrollHorizontally="false"
+            android:background="@drawable/custom_textfield_form"
+            android:lines="6"
+             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etTag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:visibility="gone"
+            android:fontFamily="@font/nunitolight"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/custom_textfield_form"
+            android:hint="@string/tag1"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etTag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:fontFamily="@font/nunitolight"
+            android:visibility="gone"
+            android:textAlignment="center"
+            android:ems="10"
+            android:background="@drawable/custom_textfield_form"
+            android:hint="@string/tag2"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etTag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunitolight"
+            android:background="@drawable/custom_textfield_form"
+            android:ems="10"
+            android:textAlignment="center"
+            android:hint="@string/tag3"
+            android:visibility="gone"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etTag4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:visibility="gone"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunitolight"
+            android:background="@drawable/custom_textfield_form"
+            android:hint="@string/tag4"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/formBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:layout_gravity="end"
+        android:text="@string/Submit"
+        android:fontFamily="@font/nunitosemibold"/>
+</LinearLayout>
+</ScrollView>

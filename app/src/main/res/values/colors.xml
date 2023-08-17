@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#A244d0</color>
+    <color name="colorOnPrimary">#336200EE</color>
+    <color name="black">#141414</color>
+    <color name="primaryLight">#D8E4FF</color>
+    <color name="primaryDark">#7f4bd2</color>
+    <color name="PinkShade">#B4DBF8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_indicator_gray">#c0c0c0</color>
+
+
+
+</resources>

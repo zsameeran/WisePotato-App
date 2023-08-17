@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="0.4" android:toAlpha="1.0"
+        android:duration="250" />
+    <!--
+        Transparency controls animation effects alpha float value: fromAlpha property is the transparency at the start of the animation
+        The toAlpha property is the transparency at the end of the animation. Note: 0.0 means completely transparent. 1.0 means completely opaque.
+        The above value takes the number of the float data type between 0.0 and 1.0. Long integer value: duration
+        Property is animation duration Description: Time in milliseconds
+    -->
+</set>

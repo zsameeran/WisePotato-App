@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:title="@string/General" >
+        <menu><group android:checkableBehavior="single">
+    <item android:id="@+id/menu_profile"
+        android:icon="@drawable/username_logo"
+        android:title="@string/MyProfileTitle"/>
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_baseline_lock_open_24"
+        android:title="@string/logout"/>
+        </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/termsTitle">
+    <menu>
+        <group android:checkableBehavior="single">
+    <item android:id="@+id/Terms_condition"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="@string/termsandCond"/>
+    <item android:id="@+id/privacy"
+        android:icon="@drawable/ic_baseline_privacy_tip_24"
+        android:title="@string/privacy"/>
+        </group>
+    </menu>
+    </item>
+
+
+</menu>
