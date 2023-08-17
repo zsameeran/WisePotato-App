@@ -7,6 +7,6 @@ If the concept seems interesting, you can save it for further reference and come
 You can also share the concepts with your friends and close ones!
 You can also post content that will be visible to all the users.
 
-![image](https://github.com/zsameeran/WisePotato-App/assets/53044906/ccd6f298-8a48-4b52-a953-ce811ca3e906)
 
-![image](https://github.com/zsameeran/WisePotato-App/assets/53044906/3c8a9d74-4824-4a66-bd75-2a6b4ff372b1)
+![image](https://github.com/zsameeran/WisePotato-App/assets/53044906/48c38ad2-f513-421f-82d1-acbde93836c0)
+![image](https://github.com/zsameeran/WisePotato-App/assets/53044906/2b1c5225-ba3d-47d7-bb93-c606d2bf7f7e)
